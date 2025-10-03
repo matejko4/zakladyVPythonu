@@ -1,3 +1,4 @@
+
 '''
 Vestavěné funkce v Pythonu (built-in functions)
 
@@ -22,6 +23,7 @@ print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 print('Standardní výpis na obrazovku')
 
 # Příklad výpisu proměnné
+
 rok = 2020
 print('Koronavirový rok ', rok)
 
