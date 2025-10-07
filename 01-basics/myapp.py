@@ -58,6 +58,9 @@ def kviz():
         print("Špatně! Správná odpověď je ofsajd.\n")
 
 
+    procenta = (score/pocet_otazek)*100
+
     print(f"Kvíz skončil! Váš celkový počet bodů je: {score}/{pocet_otazek}")
+    print(f"Procentuální úspěšnost: {procenta}%" )
 
 kviz()
